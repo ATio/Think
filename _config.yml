@@ -47,7 +47,7 @@ feed: /atom.xml
 #菜单配置
 nav:
   - text: 首页
-    url: /index.html
+    url: http://awthink.net/
     icon: icon-home
     class: home
   - text: Read
