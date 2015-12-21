@@ -2,7 +2,7 @@
 layout: nil
 ---
 
-[{% for post in site.posts limit:5 %}
+[{% for post in site.posts limit:3 %}
     {
         "title":"{{post.title}}",
         "url":"http://think.awthink.net{{post.url}}",
