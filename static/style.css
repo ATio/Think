@@ -956,3 +956,17 @@ pre.prettyprint{
  * WeChat QRcode
 *************************/
 .qrcode{visibility:visible}.qrcode{position:relative;z-index:2} .icon{background:url("http://xuwenrong.qiniudn.com/net/img/thumbqrcode.png") no-repeat 0 0;height:33px;width:33px}.qrcode-list a .icon,.qrcode a .text{cursor:pointer;display:inline-block;vertical-align:middle}.qrcode img{background:red;border:1px solid #e3e3e3;height:160px;left:0;position:absolute;top:-160px;visibility:hidden;width:160px;z-index:3}.qrcode .icon{background-position:0 0}.qrcode .icon{background-position:0 -139px}.qrcode:hover{zoom:1}.qrcode:hover img{visibility:visible}.qrcode-list .qrcode:hover .text{background-position:0 -139px;color:#000}
+
+/*************************
+ * issue-comments
+*************************/
+.aw-comments{
+  width: 100%;
+  border-top: 1px solid rgba(0,0,0,0.13);
+  border-bottom: 1px solid rgba(0,0,0,0.13);
+}
+.aw-post-comments{
+  text-align: center;
+  color: #999;
+  padding: 1em 0;
+}
