@@ -11,7 +11,7 @@ keywords: AwThink, GitHub, Jekyll, CSS, html, html5, CSS3, JavaScript, js, ES6, 
     </hgroup><!-- //violet-site -->
 </section>
 <article class="lotus-article">
-{% for rpost in paginator.posts limit:5 %}
+{% for rpost in paginator.posts limit:7 %}
     <h3><a href="{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></h3>
     <p itemprop="description">{{ rpost.description }}</p>
 {% endfor %}
@@ -20,7 +20,7 @@ keywords: AwThink, GitHub, Jekyll, CSS, html, html5, CSS3, JavaScript, js, ES6, 
     <article class="article article-first">
     <h3>更多文章</h3>
         <ul>
-            <li><a href="http://awthink.net/archives.html">文章归档</a></li>
+            <li><a href="http://think.awthink.net/archives.html">文章归档</a></li>
         </ul>
     </article>
     <article class="article article-last">

@@ -62,9 +62,6 @@ nav:
 page:
   - text: 文章分类
     url: /category.html
-    last: true
-  - text: 友情链接
-    url: /links.html
     last: false
 
 author:
