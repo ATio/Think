@@ -761,6 +761,9 @@ h1, h2, h3, h4, h5, h6{ font-weight: 500; font-weight: 700\9; color:#333; }
         column-gap: 3em;
         column-rule: #c8c8c8 1px dotted;
     }
+    p.postend{
+      text-align: center;
+    }
 }
 
 /*************************
